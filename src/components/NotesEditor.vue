@@ -1,6 +1,6 @@
 <template>
-  <div class="toolbar">
-    toolbar<i class="fa fa-address-book"></i>
+  <div class="notesEditor">
+    notesEditor
   </div>
 </template>
 
