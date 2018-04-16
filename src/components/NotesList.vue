@@ -1,6 +1,5 @@
 <template>
   <div class="notesList">
-    notesList
   </div>
 </template>
 
