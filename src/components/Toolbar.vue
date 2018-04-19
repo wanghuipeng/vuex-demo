@@ -34,5 +34,12 @@ export default {
    position: absolute;
    top: 0;
    border-right: 1px solid gray;
+   width: 30px;
+   text-align: center;
+   i{
+     height: 30px;
+     line-height: 30px;
+     display: block;
+   }
 }
 </style>

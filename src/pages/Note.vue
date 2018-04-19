@@ -1,14 +1,16 @@
 <template>
   <div class="note">
     <Toolbar />
+    <NotesList />
   </div>
 </template>
 
 <script>
-import Toolbar from '../components/Toolbar';
+import Toolbar from '../components/Toolbar'
+import NotesList from '../components/NotesList'
 
 export default {
-  components:{ Toolbar },
+  components:{ Toolbar, NotesList },
   data () {
     return {
     }
