@@ -14,14 +14,14 @@ export default {
     }
   },
   methods: {
-    addNote() {
+    addNote () {
       console.log('新建note')
     },
-    likeNote() {
-      this.favorite = !this.favorite;
+    likeNote () {
+      this.favorite = !this.favorite
       console.log('收藏note')
     },
-    delNote() {
+    delNote () {
       console.log('删除note')
     }
   }
@@ -31,9 +31,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="less">
 .toolbar{
-   position: absolute;
-   top: 0;
-   border-right: 1px solid gray;
+   height: 100%;
+   float: left;
    width: 30px;
    text-align: center;
    i{

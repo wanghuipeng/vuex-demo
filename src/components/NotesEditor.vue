@@ -1,6 +1,6 @@
 <template>
   <div class="notesEditor">
-    notesEditor
+    <textarea>notesEditor</textarea>
   </div>
 </template>
 
@@ -14,6 +14,14 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
+<style scoped lang="less">
+.notesEditor{
+  height: 100%;
+  margin-left: 280px;
+  textarea{
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+  }
+}
 </style>
