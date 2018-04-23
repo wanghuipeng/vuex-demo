@@ -1,0 +1,6 @@
+export const CHANGE_LIST_STATUS = 'changeListStatus'
+export const ADDNOTE = 'addNote'
+export const EDITNOTE = 'editNote'
+export const DELETENOTE = 'deleteNote'
+export const TOGGLEFAVORITE = 'toggleFavorite'
+export const SETFAVORITE = 'setFavorite'

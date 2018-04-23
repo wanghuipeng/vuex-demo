@@ -7,7 +7,9 @@ import getters from './getters'
 Vue.use(Vuex)
 
 const state = {
-
+  isAllList: true,
+  notes: [],
+  activeNote: {}
 }
 
 export default new Vuex.Store({
